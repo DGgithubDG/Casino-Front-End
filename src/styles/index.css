@@ -9,4 +9,22 @@
     
     import 'relative/path/to/stylesheet.scss';
 
-*/
+*/.navbar-brand{
+    color: blue;
+}
+.Register{
+    padding-right: 10px;
+}
+.Login{
+    padding-right: 10px;
+}
+.Footer{
+padding-top: 420px;
+}
+.Card{
+    border-radius: 10px;
+    background-color: greenyellow;
+}
+.card-Body{
+    background-color: greenyellow;
+}
