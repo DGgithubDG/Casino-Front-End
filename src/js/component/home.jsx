@@ -7,18 +7,25 @@ import { FaMoneyBillAlt } from 'react-icons/fa'
 import { AiFillDollarCircle } from 'react-icons/ai'
 import { GiCard7Clubs } from 'react-icons/gi'
 import { MdStars } from 'react-icons/md'
+import casino from "../../img/casino.jpg";
 import Navbar from "./navbar";
 import Footer from "./footer";
 import Card from "./card";
+import ResponsiveImage from "./img";
+//import rigoImage from "../../img/rigo-baby.jpg";
+
 //create your first component
 const Home = () => {
 	return (
     <div>
     <div><Navbar/></div>
-		<div className="mx-auto" style={{ width: "20%"}}>
+    <div className="Back">
+		<div className="m">
 			<Card />
 		</div>
+    <div><ResponsiveImage/></div>
     <div><Footer/>
+    </div>
     </div>
     </div>
 	);

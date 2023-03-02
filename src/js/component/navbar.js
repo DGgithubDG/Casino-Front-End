@@ -4,47 +4,41 @@ import { FaHome } from 'react-icons/fa'
 import { FaBasketballBall } from 'react-icons/fa'
 import { FaGamepad } from 'react-icons/fa'
 import { FaMoneyBillAlt } from 'react-icons/fa'
-import { AiFillDollarCircle } from 'react-icons/ai'
 import { GiCard7Clubs } from 'react-icons/gi'
-import { MdStars } from 'react-icons/md'
+import { MdCasino, MdStars } from 'react-icons/md'
 import { ImNewspaper } from 'react-icons/im'
 
 
-const White = {background:"White"}
-const Blue = {background:"Blue"}
+
 
 
 //create your first component
 const Navbar = () => {
-    const [color, setColor] = useState(White)
 	return (
-		<nav className="navbar navbar-expand-lg bg-light">
-  <div className="container-fluid">
-    <div onMouseEnter={() => setColor(Blue)}
-    style= {color}><a className="fs-1" href="#">King J </a></div>
+		<nav className="navbar navbar-expand-lg bg-dark">
+  <div><a className="fs-1" href="#">King J </a></div>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#"><FaBasketballBall/>SPORTS</a>
+          <a className="nav-link active" aria-current="page" href="https://Kingjent.com/"><div className="navnav"><button type="button" class="btn btn-dark"><FaBasketballBall/>SPORTS</button></div></a>
 		  
         </li>
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#"><FaMoneyBillAlt/>CASINO</a>
+          <a className="nav-link active" aria-current="page" href="https://Kingjent.com/"><div className="navnav"><button type="button" class="btn btn-dark"><MdCasino/>CASINO</button></div></a>
 
-        </li>
-        <li className="nav-item dropdown">
-		<a className="nav-link active" aria-current="page" href="#"><AiFillDollarCircle/>LIVE CASINO</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#"><GiCard7Clubs/>POKER</a>
+		<a className="nav-link active" aria-current="page" href="https://Kingjent.com/"><div className="navnav"><button type="button" class="btn btn-dark"><FaMoneyBillAlt/>LIVE CASINO</button></div></a>
         </li>
-        <a className="nav-link active" aria-current="page" href="#"><FaGamepad/>VIRTUAL SPORTS</a>
-        <a className="nav-link active" aria-current="page" href="#"><MdStars/>PROMOTIONS</a>
-        <a className="nav-link active" aria-current="page" href="#"><ImNewspaper/>BLOG</a>
-
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="https://Kingjent.com/"><div className="navnav"><button type="button" class="btn btn-dark"><GiCard7Clubs/>POKER</button></div></a>
+        </li>
+        <a className="nav-link active" aria-current="page" href="https://Kingjent.com/"><div className="navnav"><button type="button" class="btn btn-dark"><FaGamepad/>VIRTUAL SPORTS</button></div></a>
+        <a className="nav-link active" aria-current="page" href="https://Kingjent.com/"><div className="navnav"><button type="button" class="btn btn-dark"><MdStars/>PROMOTIONS</button></div></a>
+        <a className="nav-link active" aria-current="page" href="https://Kingjent.com/"><div className="navnav"><button type="button" class="btn btn-dark"><ImNewspaper/>BLOGS</button></div></a>
 
       </ul>
   
@@ -56,7 +50,6 @@ const Navbar = () => {
 
       </form>
     </div>
-  </div>
 </nav>
 
 	);
