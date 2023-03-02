@@ -15,6 +15,7 @@ import { ImNewspaper } from 'react-icons/im'
 //create your first component
 const Navbar = () => {
 	return (
+    <div>
 		<nav className="navbar navbar-expand-lg bg-dark">
   <div><a className="fs-1" href="#">King J </a></div>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,24 +23,27 @@ const Navbar = () => {
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-        <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="https://Kingjent.com/"><div className="navnav"><button type="button" class="btn btn-dark"><FaBasketballBall/>SPORTS</button></div></a>
-		  
+      <li class="nav-item">
+        <a className="nav-link active"  href="https://Kingjent.com/"><div className="navnav"><button type="button" class="btn btn-dark"><FaBasketballBall/>SPORTS</button></div></a>
         </li>
-        <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="https://Kingjent.com/"><div className="navnav"><button type="button" class="btn btn-dark"><MdCasino/>CASINO</button></div></a>
-
+        <li class="nav-item">
+        <a className="nav-link active" aria-current="page" href="https://Kingjent.com/"><div className="navnav"><button type="button" class="btn btn-dark"><MdCasino/>CASINO</button></div></a>
         </li>
-        <li className="nav-item">
-		<a className="nav-link active" aria-current="page" href="https://Kingjent.com/"><div className="navnav"><button type="button" class="btn btn-dark"><FaMoneyBillAlt/>LIVE CASINO</button></div></a>
+        <li class="nav-item">
+        <a className="nav-link active" aria-current="page" href="https://Kingjent.com/"><div className="navnav"><button type="button" class="btn btn-dark"><FaMoneyBillAlt/>LIVE CASINO</button></div></a>
         </li>
-        <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="https://Kingjent.com/"><div className="navnav"><button type="button" class="btn btn-dark"><GiCard7Clubs/>POKER</button></div></a>
+        <li class="nav-item">
+        <a className="nav-link active" aria-current="page" href="https://Kingjent.com/"><div className="navnav"><button type="button" class="btn btn-dark"><GiCard7Clubs/>POKER</button></div></a>
         </li>
+        <li class="nav-item">
         <a className="nav-link active" aria-current="page" href="https://Kingjent.com/"><div className="navnav"><button type="button" class="btn btn-dark"><FaGamepad/>VIRTUAL SPORTS</button></div></a>
+        </li>         
+        <li class="nav-item">
         <a className="nav-link active" aria-current="page" href="https://Kingjent.com/"><div className="navnav"><button type="button" class="btn btn-dark"><MdStars/>PROMOTIONS</button></div></a>
-        <a className="nav-link active" aria-current="page" href="https://Kingjent.com/"><div className="navnav"><button type="button" class="btn btn-dark"><ImNewspaper/>BLOGS</button></div></a>
-
+        </li>
+        <li class="nav-item">
+        <a className="nav-link active" aria-current="page" href="https://Kingjent.com/"><div className="navnav"><button type="button" class="btn btn-dark"><ImNewspaper/>BLOG</button></div></a>
+        </li>
       </ul>
   
 
@@ -51,6 +55,9 @@ const Navbar = () => {
       </form>
     </div>
 </nav>
+
+</div>
+
 
 	);
 };

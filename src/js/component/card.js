@@ -10,12 +10,16 @@ import { FcLink } from "react-icons/fc";
 const Card = () => {
 	return (
     <div className="carddiv">
-  
+    <div><div className="imgimg">
+     
+     <img src="https://www.thesun.co.uk/wp-content/uploads/2020/03/roulette-wheel.jpg?crop=0px%2C35px%2C300px%2C200px&resize=350%2C200" class="rounded" alt="..."/>
+     </div></div>
+    
         <div class="card-group">
 
     <div className="background">
 		<div className="card text-center">
-            <span className="myClass" style={{float : 'left', paddingRight : '5px'}} > </span>
+            <span className="myClass"> </span>
 
   <div class="card-body">
     <h5 class="card-title text-center">WELCOME TO KING J</h5>

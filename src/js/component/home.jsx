@@ -20,14 +20,11 @@ const Home = () => {
     <div>
     <div><Navbar/></div>
     <div className="Back">
-		<div className="m">
-			<Card />
-		</div>
-    <div><ResponsiveImage/></div>
+			<Card /></div>
     <div><Footer/>
     </div>
     </div>
-    </div>
+    
 	);
 };
 
