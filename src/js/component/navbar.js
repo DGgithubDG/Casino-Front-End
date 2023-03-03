@@ -23,7 +23,7 @@ const Navbar = () => {
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-      <li class="nav-item">
+        <li class="nav-item">
         <a className="nav-link active"  href="https://Kingjent.com/"><div className="navnav"><button type="button" class="btn btn-dark"><FaBasketballBall/>SPORTS</button></div></a>
         </li>
         <li class="nav-item">
