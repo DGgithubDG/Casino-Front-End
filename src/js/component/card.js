@@ -12,12 +12,12 @@ const Card = () => {
   
 
          
-                 <div className="body">
+                 <div className="denis-body">
                   
- {/* <div className="imgimg">
  
-  <img src="https://www.thesun.co.uk/wp-content/uploads/2020/03/roulette-wheel.jpg?crop=0px%2C35px%2C300px%2C200px&resize=450%2C280" class="rounded" alt="..."/>
-  </div> */}
+ 
+  {/* <img src="https://www.gamblingnews.com/wp-content/uploads/2021/09/best-slot-machine-strategies-blog-post.jpg" class="rounded" alt="..."/> */}
+   
   <div className="carddiv">
      <div class="card-group">
 
@@ -26,7 +26,13 @@ const Card = () => {
          <span className="myClass"> </span>
 
  <div class="card-body">
- <h5 class="card-title text-center">WELCOME TO KING J</h5>
+ <h4 class="card-title text-center">WELCOME TO KING J</h4>
+ <ul></ul>
+ <ul></ul>
+ <ul></ul>
+ <ul></ul>
+ <ul></ul>
+ <ul></ul>
  <p class="card-text"><ul><FcApproval/><strong>Always the best odds with King J</strong></ul><ul><FcBullish/><strong>Quick and easy deposits & withdrawals</strong></ul><ul><FcLink/><strong>Focus on transparency, responsibility, and security</strong></ul> </p>
  <a href="#" class="text-center btn btn-success">REGISTER</a>
  </div>
