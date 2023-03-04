@@ -19,49 +19,33 @@
     padding-right: 10px;
 }
 
-.card{
-    border-radius: 30px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    background-color: rgba(0, 0, 0, 0.534);
-}
 
-.card-text{
-    color: aliceblue;
-}
-.card-title{
-    color: blue;
-
-}
 .navnav{
     color: aliceblue;
 }
-.Back{
-   
-    background: url("https://www.gamblingnews.com/wp-content/uploads/2021/09/best-slot-machine-strategies-blog-post.jpg")no-repeat center center ;
-    
+.Back{    
     max-width: 100%;
-    background-size: cover;
-
-    background-color: rgba(36, 18, 36, 0.986);
-    padding-bottom: 170px;
-   
- 
-   
   }
 
-.carddiv{
-    border-radius: 40px;
-    padding-top: 80px;
-    padding-left: 1350px;
-    padding-bottom: 80px;
-    
-}
+
 .imgimg{
     max-width: 100%;
     height: auto;
 }
-denis-body{
-    max-width: 100%;
-    height: auto;
+.Main-Card{
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.843);
+}
+.card-header{
+    color: blue;
+    background-color: rgba(0, 0, 0, 0.843);
+}
+.list-group-item{
+    background-color: rgba(0, 0, 0, 0.843);
+    color: white;
+}
+@media screen and (min-width: 1408px){
+    .denis-body{
+
+    }
 }
