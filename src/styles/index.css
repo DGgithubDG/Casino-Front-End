@@ -10,7 +10,7 @@
     import 'relative/path/to/stylesheet.scss';
 
 */.navbar-brand{
-    color: blue;
+    color: rgb(255, 0, 225);
 }
 .Register{
     padding-right: 10px;
@@ -23,29 +23,21 @@
 .navnav{
     color: aliceblue;
 }
-.Back{    
-    max-width: 100%;
-  }
+.Background{
+}
 
 
-.imgimg{
-    max-width: 100%;
-    height: auto;
-}
-.Main-Card{
-    border-radius: 30px;
-    background-color: rgba(0, 0, 0, 0.843);
-}
 .card-header{
-    color: blue;
+    color: rgb(255, 0, 225);
     background-color: rgba(0, 0, 0, 0.843);
 }
 .list-group-item{
     background-color: rgba(0, 0, 0, 0.843);
     color: white;
 }
-@media screen and (min-width: 1408px){
+
+/* @media screen and (min-width: 1408px){
     .denis-body{
 
     }
-}
+} */

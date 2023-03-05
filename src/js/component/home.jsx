@@ -17,13 +17,14 @@ import ResponsiveImage from "./img";
 //create your first component
 const Home = () => {
 	return (
-        <div>
-    <div><Navbar/></div><div>
-    <img className="Back" src="https://www.wildz.com/cdn/2021/09/30/wildz-blog-online-casino-2_uid_6155c3688c52d.jpeg?width=960&cover=true" class="img-fluid" alt=""/>
-			</div><div><Card /></div>
-    <div><Footer/>
+        <div className="Background">
+    <Navbar/>
+    <div></div>
+    <img className="Back" src="https://www.wildz.com/cdn/2021/09/30/wildz-blog-online-casino-2_uid_6155c3688c52d.jpeg?width=960&cover=true" class="img-fluid" alt=""/> <Card/> 
+    <Footer/>
     </div>
-    </div>
+
+    
     
 	);
 };
