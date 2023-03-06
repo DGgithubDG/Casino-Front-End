@@ -23,17 +23,21 @@
 .navnav{
     color: aliceblue;
 }
-.Background{
+.Bck{
+    background-color: rgb(255, 253, 253);
+}
+.kon{
+    position: absolute;
+    bottom: 29rem;
+    left: 87rem;
 }
 
 
-.card-header{
+.ok{
     color: rgb(255, 0, 225);
-    background-color: rgba(0, 0, 0, 0.843);
+
 }
-.list-group-item{
-    background-color: rgba(0, 0, 0, 0.843);
-    color: white;
+.pad{
 }
 
 /* @media screen and (min-width: 1408px){

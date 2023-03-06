@@ -3,7 +3,7 @@ import { FcApproval } from "react-icons/fc";
 import { FcBullish } from "react-icons/fc";
 import { FcLink } from "react-icons/fc";
 
-
+//import { container } from "react-bootstrap"
 
 
 //create your first component
@@ -12,27 +12,27 @@ const Card = () => {
   
 
          
-                  
- <div className="Main-Card"> 
- 
-  {/* <img src="https://www.gamblingnews.com/wp-content/uploads/2021/09/best-slot-machine-strategies-blog-post.jpg" class="rounded" alt="..."/> */}
-   
-  <div class="Getov" >
-  <div class="card-header text-center">
-    
-    <h5>KING J</h5>
+    <div className="BC">
+	
+	<div className="Hello text-center mt-5">
+<container>
+	<figure className="position-relative">
+	<figcaption>
+  <div class="card">
+  <div class="card-header">
+    Featured
   </div>
-  <div className="kon">
   <ul class="list-group list-group-flush">
-    <li class="list-group-item text-center"><FcApproval/>An item</li>
-    <li class="list-group-item text-center"><FcBullish/>A second item</li>
-    <li class="list-group-item text-center"><FcLink/>A third item</li>
-    <li class="list-group-item text-center"><button type="button" class="btn btn-success">REGISTER</button>
-</li>
+    <li class="list-group-item">An item</li>
+    <li class="list-group-item">A second item</li>
+    <li class="list-group-item">A third item</li>
   </ul>
-  </div>
-</div>
-</div>
+</div>	</figcaption>
+	</figure>
+</container>
+
+	</div>
+	</div>
 	);
 };
 
