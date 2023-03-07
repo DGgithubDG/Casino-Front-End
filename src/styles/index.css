@@ -11,13 +11,20 @@
 
 */.navbar-brand{
     color: rgb(255, 0, 225);
+    margin-top: 0.5rem;
 }
 .Register{
     padding-right: 10px;
+    margin-top: 0.7rem;
 }
 .Login{
     padding-right: 10px;
+    margin-top: 0.7rem;
 }
+.sportsicon{
+    margin-top: 0.2rem;
+}
+
 
 
 .navnav{
@@ -25,19 +32,28 @@
 }
 .Bck{
     background-color: rgb(255, 253, 253);
+    margin-bottom: 40rem;
 }
-.kon{
+
+
+.card{
     position: absolute;
-    bottom: 29rem;
-    left: 87rem;
-}
-
-
-.ok{
+    top: 22rem;
+    border-radius: 25px;
     color: rgb(255, 0, 225);
-
+    left: 27rem;
+    width: 20%;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-color: rgb(71, 62, 62);
 }
-.pad{
+.header{
+    color: rgb(255, 0, 225);
+    padding-bottom: 5px;
+}
+.list-group-item{
+    background-color: rgb(71, 62, 62);
+    color: beige;
 }
 
 /* @media screen and (min-width: 1408px){

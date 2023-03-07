@@ -25,25 +25,25 @@ const Navbar = () => {
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-        <a className="nav-link active" aria-current="page" href="https://Kingjent.com/"><div className="navnav"><button type="button" class="btn btn-dark"><div className="pad"></div><i>SPORTS</i></button><FaBasketballBall/></div></a>
+        <a className=" sportsicon nav-link active" aria-current="page" href="https://Kingjent.com/"><div className="navnav"><button type="button" class="btn btn-dark"><div className="pad"></div><i>SPORTS</i></button><FaBasketballBall/></div></a>
         </li>
 		<li class="nav-item">
-    <a className="nav-link active" aria-current="page" href="https://Kingjent.com/"><div className="navnav"><button type="button" class="btn btn-dark"><div className="pad"></div><i>CASINO</i></button><FaMoneyBillAlt/></div></a>
+    <a className="sportsicon nav-link active" aria-current="page" href="https://Kingjent.com/"><div className="navnav"><button type="button" class="btn btn-dark"><div className="pad"></div><i>CASINO</i></button><FaMoneyBillAlt/></div></a>
         </li>
 		<li class="nav-item">
-        <a className="nav-link active" aria-current="page" href="https://Kingjent.com/"><div className="navnav"><button type="button" class="btn btn-dark"><div className="pad"></div><i>LIVE CASINO</i></button><MdCasino/></div></a>
+        <a className="sportsicon nav-link active" aria-current="page" href="https://Kingjent.com/"><div className="navnav"><button type="button" class="btn btn-dark"><div className="pad"></div><i>LIVE CASINO</i></button><MdCasino/></div></a>
         </li>
 		<li class="nav-item">
-    <a className="nav-link active" aria-current="page" href="https://Kingjent.com/"><div className="navnav"><button type="button" class="btn btn-dark"><div className="pad"></div><i>VIRTUAL GAMES</i></button><FaGamepad/></div></a>
+    <a className="sportsicon nav-link active" aria-current="page" href="https://Kingjent.com/"><div className="navnav"><button type="button" class="btn btn-dark"><div className="pad"></div><i>VIRTUAL GAMES</i></button><FaGamepad/></div></a>
         </li>
 		<li class="nav-item">
-    <a className="nav-link active" aria-current="page" href="https://Kingjent.com/"><div className="navnav"><button type="button" class="btn btn-dark"><div className="pad"></div><i>POKER</i></button><GiCard7Clubs/></div></a>
+    <a className="sportsicon nav-link active" aria-current="page" href="https://Kingjent.com/"><div className="navnav"><button type="button" class="btn btn-dark"><div className="pad"></div><i>POKER</i></button><GiCard7Clubs/></div></a>
         </li>
 		<li class="nav-item">
-    <a className="nav-link active" aria-current="page" href="https://Kingjent.com/"><div className="navnav"><button type="button" class="btn btn-dark"><div className="pad"></div><i>PROMOTION</i></button><MdStars/></div></a>
+    <a className="sportsicon nav-link active" aria-current="page" href="https://Kingjent.com/"><div className="navnav"><button type="button" class="btn btn-dark"><div className="pad"></div><i>PROMOTION</i></button><MdStars/></div></a>
         </li>
 		<li class="nav-item">
-    <a className="nav-link active" aria-current="page" href="https://Kingjent.com/"><div className="navnav"><button type="button" class="btn btn-dark"><div className="pad"></div><i>BLOG</i></button><ImNewspaper/></div></a>
+    <a className="sportsicon nav-link active" aria-current="page" href="https://Kingjent.com/"><div className="navnav"><button type="button" class="btn btn-dark"><div className="pad"></div><i>BLOG</i></button><ImNewspaper/></div></a>
         </li>
 		
       </ul>

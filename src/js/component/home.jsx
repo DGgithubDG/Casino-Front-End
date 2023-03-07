@@ -1,13 +1,9 @@
 import React from "react";
 //import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
-import { FaHome } from 'react-icons/fa'
-import { FaBasketballBall } from 'react-icons/fa'
-import { FaGamepad } from 'react-icons/fa'
-import { FaMoneyBillAlt } from 'react-icons/fa'
-import { AiFillDollarCircle } from 'react-icons/ai'
-import { GiCard7Clubs } from 'react-icons/gi'
-import { MdStars } from 'react-icons/md'
-import casino from "../../img/casino.jpg";
+import { FcApproval } from "react-icons/fc";
+import { FcBullish } from "react-icons/fc";
+import { FcLink } from "react-icons/fc";
+import casino from "../../img/casino.6.jpg";
 import Navbar from "./navbar";
 import Footer from "./footer";
 import Card from "./card";
@@ -19,9 +15,23 @@ const Home = () => {
 	return (
         <div className="Background">
     <Navbar/>
-    <div></div>
-    <img className="Back" src="https://www.wildz.com/cdn/2021/09/30/wildz-blog-online-casino-2_uid_6155c3688c52d.jpeg?&cover=true" class="img-fluid" alt=""/> 
-   {/* <div className="Bck"><Card/></div>   */}
+    <div></div><div>
+    <img class="img-fluid" src={casino}></img>
+    <div class="card" >
+  <div class=" header list-group-item text-center">
+    <h3><strong><div className="header">KING J </div></strong></h3>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item text-center"><FcApproval/><i>Card text here</i></li>
+    <li class="list-group-item text-center"><FcBullish/><i>Card text here</i></li>
+    <li class="list-group-item text-center"><FcLink/><i>Card text here</i></li>
+  </ul>
+  <button className="btn btn-success text-center">REGISTER</button>
+
+</div>
+    {/* <img className="Back" src="https://www.wildz.com/cdn/2021/09/30/wildz-blog-online-casino-2_uid_6155c3688c52d.jpeg?&cover=true" class="img-fluid" alt=""/>  */}
+     {/* <Card/>  */}
+    </div>
     <Footer/>
     </div>
 
