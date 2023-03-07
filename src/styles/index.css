@@ -77,6 +77,11 @@ hr.solid {
     border-top: 3px solid;
     color: blueviolet;
 }
+.card{
+@media screen and (min-width:1890px) {
+    background: white;;
+}
+}
 /* @media screen and (min-width: 1408px){
     .denis-body{
 

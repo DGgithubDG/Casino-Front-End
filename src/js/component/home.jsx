@@ -22,9 +22,9 @@ const Home = () => {
     <h5 class="card-title"><h1>CASINO</h1></h5>
     <div class="mb-6"><hr class="solid"/> </div>
 
-    <p class="card-text"><FcApproval size={38}/><strong>Always the best odds with King J</strong></p>
-    <p class="card-text"><FcBullish size={38}/><strong>Quick and easy deposits & withdrawals</strong></p>
-    <p class="card-text"><FcLink size={38}/><strong>Transparency, responsibility and security</strong></p>
+    <p class="card-text text-start"><FcApproval size={38}/><strong>Always the best odds with Casino</strong></p>
+    <p class="card-text text-start"><FcBullish size={38}/><strong>Quick and easy deposits & withdrawals</strong></p>
+    <p class="card-text text-start"><FcLink size={38}/><strong>Transparency, responsibility and security</strong></p>
    
     <a href="#" class="button btn btn-success">REGISTER</a>
   </div>
