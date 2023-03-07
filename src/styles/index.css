@@ -38,24 +38,45 @@
 
 .card{
     position: absolute;
-    top: 22rem;
+    top: 18rem;
     border-radius: 25px;
-    color: rgb(255, 0, 225);
-    left: 27rem;
+    color: rgb(238, 231, 237);
+    left: 47.5rem;
     width: 20%;
-    padding-top: 45px;
-    padding-bottom: 45px;
+    padding-top: 65px;
+    padding-bottom: 35px;
     background-color: rgb(71, 62, 62);
 }
-.header{
+.card-title{
     color: rgb(255, 0, 225);
-    padding-bottom: 5px;
+    padding-bottom: 35px;
+    animation: color-change 10s infinite;
 }
+.img-fluid{
+    width: 100%;
+}
+ 
+  @keyframes color-change {
+    0% { color: greenyellow; }
+    20% { color: purple; }
+    40% { color: orangered; }
+    60% { color: hotpink; }
+    80% { color: blue; }
+    100% { color: red; }
+  }
 .list-group-item{
     background-color: rgb(71, 62, 62);
     color: beige;
 }
-
+.button{
+    margin-top: 22px;
+    width: 40%;
+ 
+}
+hr.solid {
+    border-top: 3px solid;
+    color: blueviolet;
+}
 /* @media screen and (min-width: 1408px){
     .denis-body{
 
