@@ -142,7 +142,7 @@ const Footer = () => {
         
           <div class="text-center p-3">
             © 2023 Copyright:
-            <a class="text-white" href="https://Kingjent.com/">Kingjent.com</a>
+            <a class="text-white" href="https://www.pegasino.com/">www.pegasino.com</a>
           </div>
         </footer>
         </div>

@@ -46,6 +46,8 @@
     padding-top: 65px;
     padding-bottom: 35px;
     background-color: rgb(71, 62, 62);
+opacity: 0.8;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #0a0a31 10px ), repeating-linear-gradient( #889b1e55, #adbd23 );
 }
 .card-title{
     color: rgb(255, 0, 225);
@@ -57,12 +59,12 @@
 }
  
   @keyframes color-change {
-    0% { color: greenyellow; }
-    20% { color: purple; }
-    40% { color: orangered; }
-    60% { color: hotpink; }
-    80% { color: blue; }
-    100% { color: red; }
+    0% { color: rgb(234, 255, 47); }
+    20% { color: gold; }
+    40% { color: goldenrod; }
+    60% { color: yellowgreen; }
+    80% { color: greenyellow; }
+    100% { color: rgb(157, 255, 0); }
   }
 .list-group-item{
     background-color: rgb(71, 62, 62);
@@ -77,13 +79,9 @@ hr.solid {
     border-top: 3px solid;
     color: blueviolet;
 }
+
 .card{
 @media screen and (min-width:1890px) {
     background: white;;
 }
 }
-/* @media screen and (min-width: 1408px){
-    .denis-body{
-
-    }
-} */

@@ -19,7 +19,7 @@ const Home = () => {
     <img class="img-fluid" src={casino}></img>
     <div class="card text-center">
   <div class="card-body">
-    <h5 class="card-title"><h1>CASINO</h1></h5>
+    <h5 class="card-title"><h1>PEGASINO</h1></h5>
     <div class="mb-6"><hr class="solid"/> </div>
 
     <p class="card-text text-start"><FcApproval size={38}/><strong>Always the best odds with Casino</strong></p>
