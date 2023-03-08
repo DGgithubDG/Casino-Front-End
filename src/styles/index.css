@@ -10,7 +10,7 @@
     import 'relative/path/to/stylesheet.scss';
 
 */.navbar-brand{
-    color: rgb(255, 0, 225);
+    color: gold;
     margin-top: 0.5rem;
 }
 .Register{
@@ -45,9 +45,11 @@
     width: 20%;
     padding-top: 65px;
     padding-bottom: 35px;
-    background-color: rgb(71, 62, 62);
-opacity: 0.8;
-background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #0a0a31 10px ), repeating-linear-gradient( #889b1e55, #adbd23 );
+    background-color: #393b0f;
+    opacity: 0.8;
+    background-image: radial-gradient(#fff700 0.55px, #393b0f 0.55px);
+    background-size: 11px 11px;
+
 }
 .card-title{
     color: rgb(255, 0, 225);
@@ -73,6 +75,7 @@ background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #0a0
 .button{
     margin-top: 22px;
     width: 40%;
+
  
 }
 hr.solid {

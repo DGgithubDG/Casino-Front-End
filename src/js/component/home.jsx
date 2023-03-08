@@ -3,6 +3,8 @@ import React from "react";
 import { FcApproval } from "react-icons/fc";
 import { FcBullish } from "react-icons/fc";
 import { FcLink } from "react-icons/fc";
+import { Link } from "react-router-dom";
+
 import casino from "../../img/casino.9.jpg";
 import Navbar from "./navbar";
 import Footer from "./footer";
@@ -27,6 +29,9 @@ const Home = () => {
     <p class="card-text text-start"><FcLink size={38}/><strong>Transparency, responsibility and security</strong></p>
    
     <a href="#" class="button btn btn-success">REGISTER</a>
+    {/* <Link to="/">
+				<span className="navbar-brand mb-0 h1">React Boilerplate</span>
+			</Link> */}
   </div>
 </div>
     {/* <img className="Back" src="https://www.wildz.com/cdn/2021/09/30/wildz-blog-online-casino-2_uid_6155c3688c52d.jpeg?&cover=true" class="img-fluid" alt=""/>  */}
