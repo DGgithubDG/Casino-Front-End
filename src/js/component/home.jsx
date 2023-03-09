@@ -1,7 +1,7 @@
 import React from "react";
 //import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
 import { FcApproval } from "react-icons/fc";
-import { FcBullish } from "react-icons/fc";
+import { FcMoneyTransfer } from "react-icons/fc";
 import { FcLink } from "react-icons/fc";
 import { Link } from "react-router-dom";
 
@@ -22,10 +22,9 @@ const Home = () => {
     <div class="card text-center">
   <div class="card-body">
     <h5 class="card-title"><h1>PEGASINO</h1></h5>
-    <div class="mb-6"><hr class="solid"/> </div>
 
     <p class="card-text text-start"><FcApproval size={38}/><strong>Always the best odds with Casino</strong></p>
-    <p class="card-text text-start"><FcBullish size={38}/><strong>Quick and easy deposits & withdrawals</strong></p>
+    <p class="card-text text-start"><FcMoneyTransfer size={38}/><strong>Quick and easy deposits & withdrawals</strong></p>
     <p class="card-text text-start"><FcLink size={38}/><strong>Transparency, responsibility and security</strong></p>
    
     <a href="#" class="button btn btn-success">REGISTER</a>
